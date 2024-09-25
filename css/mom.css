@@ -1144,3 +1144,25 @@
   margin: 15px;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .about_details {
+    background-color: #930006;
+    border: 10px #c12809;
+    border-radius: 20px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    padding: 35px;
+    display: flex;
+  }
+}
+
+.about_circle {
+  background-color: #fe0201;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
