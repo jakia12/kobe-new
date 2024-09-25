@@ -1,11 +1,11 @@
 :root {
-  --pink: #fe0201;
+  --pink: #c12809;
   --white: white;
   --black: black;
 }
 
 .section_hero {
-  background-image: url('../images/BG.png');
+  background-image: url("../images/BG.png");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -20,7 +20,7 @@
 }
 
 .hero_cloud {
-  background-image: url('../images/hero_cloud.svg');
+  background-image: url("../images/hero_cloud.svg");
   background-position: 50% 100%;
   background-size: auto 100%;
   height: 25%;
@@ -29,7 +29,8 @@
 }
 
 .hero_chara {
-  height: 75%;
+  height: 80%;
+  width: 480px;
   position: absolute;
   inset: auto auto 0%;
 }
@@ -62,7 +63,7 @@
 
 .continue {
   color: #fff;
-  background-color: #fe0201;
+  background-color: #c12809;
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -121,7 +122,7 @@
 }
 
 .hero_bottom {
-  background-image: url('../images/hero_bottom.svg');
+  background-image: url("../images/hero_bottom.svg");
   background-position: 50% 100%;
   background-size: auto 100%;
   width: 150vw;
@@ -133,7 +134,7 @@
 .section_about {
   z-index: 20;
   background-color: #f2f0ea;
-  background-image: url('../images/BG.png');
+  background-image: url("../images/bg2.png");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,7 +151,7 @@
 }
 
 .separator_1 {
-  background-color: #d81a4c;
+  background-color: #f4361c;
   width: 100%;
   height: 25px;
   position: relative;
@@ -158,8 +159,8 @@
 
 .block_h1_about {
   background-color: #ba0c42;
-  border-top: 10px solid #ff005c;
-  border-bottom: 10px solid #ff005c;
+  border-top: 10px solid #c12809;
+  border-bottom: 10px solid #c12809;
   width: 100%;
   height: 150px;
   padding-top: 15px;
@@ -168,7 +169,7 @@
 }
 
 .block_h1_in {
-  background-color: #fe0201;
+  background-color: #7f0833;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -185,15 +186,15 @@
 }
 
 .hider {
-  background-color: #d81a4c;
+  background-color: #f4361c;
   height: 50px;
   position: absolute;
   inset: 0% 0% auto;
 }
 
 .about_details {
-  background-color: #fe0201;
-  border: 10px #ff005c;
+  background-color: #930006;
+  border: 10px #c12809;
   border-radius: 20px;
   flex-flow: column;
   justify-content: center;
@@ -246,7 +247,7 @@
 }
 
 .title_transition {
-  background-image: url('../images/hero_bottom.svg');
+  background-image: url("../images/hero_bottom.svg");
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -256,7 +257,7 @@
 }
 
 .block_about {
-  background-color: #ff005c;
+  background-color: #c12809;
   border-bottom: 8px solid #000;
   border-radius: 20px;
   margin-top: 50px;
@@ -266,7 +267,7 @@
 }
 
 .about_bg {
-  background-image: url('../images/bg_about.svg');
+  background-image: url("../images/bg_about.svg");
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -279,7 +280,8 @@
 .section_tokenomics {
   z-index: 10;
   background-color: #f2f0ea;
-  background-image: linear-gradient(#9e002aba, #9e002aba), url('../images/bg-wave_red.png');
+  background-image: linear-gradient(#9e002aba, #9e002aba),
+    url("../images/bg-wave_red.png");
   background-position: 0 0, 50%;
   background-size: auto, 350px;
   background-attachment: scroll, fixed;
@@ -302,7 +304,7 @@
 
 .block_tokenomics {
   background-color: #fff3dd;
-  background-image: url('../images/tokenomics_card_bg.svg');
+  background-image: url("../images/tokenomics_card_bg.svg");
   background-position: 50%;
   background-size: 115%;
   border: 3px solid #000;
@@ -347,7 +349,7 @@
 
 .div-block {
   z-index: 0;
-  background-image: url('../images/lamps.svg');
+  background-image: url("../images/lamps.svg");
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -367,7 +369,7 @@
 
 .section_how {
   z-index: 40;
-  background-image: url('../images/BG.png');
+  background-image: url("../images/bg3.png");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -391,7 +393,7 @@
 }
 
 .how_block {
-  background-color: #ff005c;
+  background-color: #c12809;
   border: 0 solid #000;
   border-bottom-width: 8px;
   border-radius: 20px;
@@ -406,7 +408,7 @@
 }
 
 .how_title {
-  background-color: #ff005c;
+  background-color: #c12809;
   border-bottom: 6px solid #000;
   border-radius: 15px;
   justify-content: center;
@@ -426,7 +428,7 @@
 }
 
 .how_in {
-  background-color: #fe0201;
+  background-color: #930006;
   border-bottom: 5px solid #000;
   border-radius: 20px;
   justify-content: center;
@@ -449,7 +451,7 @@
 .how_title_in {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-color: #fe0201;
+  background-color: #930006;
   border-radius: 15px;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
@@ -472,7 +474,7 @@
 
 .title_transition_money {
   z-index: 20;
-  background-image: url('../images/hero_bottom.svg');
+  background-image: url("../images/hero_bottom.svg");
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -491,7 +493,7 @@
 }
 
 .how_bottom {
-  background-image: url('../images/hero_bottom.svg');
+  background-image: url("../images/hero_bottom.svg");
   background-position: 0 100%;
   background-size: auto 100%;
   width: 150vw;
@@ -501,7 +503,7 @@
 }
 
 .section_join {
-  background-image: url('../images/BG.png');
+  background-image: url("../images/bg4.png");
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -532,7 +534,7 @@
 }
 
 .footer_bg {
-  background-image: url('../images/bg_about.svg');
+  background-image: url("../images/bg_about.svg");
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -558,7 +560,7 @@
 
 .footer_bottom {
   z-index: 20;
-  background-image: url('../images/hero_bottom.svg');
+  background-image: url("../images/hero_bottom.svg");
   background-position: 0 100%;
   background-size: auto 100%;
   width: 150vw;
@@ -568,7 +570,7 @@
 }
 
 .sakura_footer {
-  background-image: url('../images/sakura_footer.svg');
+  background-image: url("../images/sakura_footer.svg");
   background-position: 50% 0;
   background-size: cover;
   width: 80%;
@@ -578,7 +580,7 @@
 }
 
 .div-block-2 {
-  background-color: #ff005c;
+  background-color: #c12809;
   border-bottom: 8px solid #000;
   border-radius: 100px;
   width: 650px;
@@ -588,7 +590,7 @@
 }
 
 .div-block-3 {
-  background-color: #fe0201;
+  background-color: #7f0833;
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -600,8 +602,8 @@
 }
 
 .social_footer {
-  background-color: #ff005c;
-  background-image: url('../images/telegram.svg');
+  background-color: #c12809;
+  background-image: url("../images/telegram.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -620,31 +622,31 @@
 }
 
 .social_footer.mail {
-  background-image: url('../images/mail.svg');
+  background-image: url("../images/mail.svg");
   background-size: 90%;
   position: static;
 }
 
 .social_footer.x {
-  background-image: url('../images/twitter.svg');
+  background-image: url("../images/twitter.svg");
   background-size: 110%;
   position: static;
 }
 
 .social_footer.dex {
-  background-image: url('../images/dextools.svg');
+  background-image: url("../images/dextools.svg");
   background-size: 65%;
   position: static;
 }
 
 .social_footer.uni {
-  background-image: url('../images/uniswap.svg');
+  background-image: url("../images/uniswap.svg");
   background-size: 110%;
   position: static;
 }
 
 .social_footer.dexs {
-  background-image: url('../images/dexscreener.svg');
+  background-image: url("../images/dexscreener.svg");
   background-size: 65%;
   position: static;
 }
@@ -659,15 +661,15 @@
 }
 
 .ca {
-  color: white;
+  color: #ff4f86;
   text-align: center;
   font-family: Maladroit, sans-serif;
   font-size: 20px;
 }
 
 .copy {
-  background-color: #ff005c;
-  background-image: url('../images/copy.svg');
+  background-color: #c12809;
+  background-image: url("../images/copy.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 75%;
@@ -686,23 +688,23 @@
 }
 
 .copy.x {
-  background-image: url('../images/twitter.svg');
+  background-image: url("../images/twitter.svg");
   background-size: 110%;
 }
 
 .copy.dex {
-  background-image: url('../images/dextools.svg');
+  background-image: url("../images/dextools.svg");
   background-size: 65%;
 }
 
 .copy.uni {
-  background-image: url('../images/uniswap.svg');
+  background-image: url("../images/uniswap.svg");
   background-size: 110%;
 }
 
 .hero_tg {
-  background-color: #ff005c;
-  background-image: url('../images/telegram.svg');
+  background-color: #c12809;
+  background-image: url("../images/telegram.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -722,23 +724,23 @@
 }
 
 .hero_tg.x {
-  background-image: url('../images/twitter.svg');
+  background-image: url("../images/twitter.svg");
   background-size: 110%;
 }
 
 .hero_tg.dex {
-  background-image: url('../images/dextools.svg');
+  background-image: url("../images/dextools.svg");
   background-size: 65%;
 }
 
 .hero_tg.uni {
-  background-image: url('../images/uniswap.svg');
+  background-image: url("../images/uniswap.svg");
   background-size: 110%;
 }
 
 .hero_x {
-  background-color: #ff005c;
-  background-image: url('../images/twitter.svg');
+  background-color: #c12809;
+  background-image: url("../images/twitter.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 110%;
@@ -758,17 +760,17 @@
 }
 
 .hero_x.x {
-  background-image: url('../images/twitter.svg');
+  background-image: url("../images/twitter.svg");
   background-size: 110%;
 }
 
 .hero_x.dex {
-  background-image: url('../images/dextools.svg');
+  background-image: url("../images/dextools.svg");
   background-size: 65%;
 }
 
 .hero_x.uni {
-  background-image: url('../images/uniswap.svg');
+  background-image: url("../images/uniswap.svg");
   background-size: 110%;
 }
 
@@ -1030,19 +1032,115 @@
   }
 }
 
-
 @font-face {
-  font-family: 'Japanese Robot';
-  src: url('../fonts/Japanese-Robot.ttf') format('truetype');
+  font-family: "Japanese Robot";
+  src: url("../fonts/Japanese-Robot.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Maladroit';
-  src: url('../fonts/maladroit.ttf') format('truetype');
+  font-family: "Maladroit";
+  src: url("../fonts/maladroit.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+.button_hero {
+  background-color: RED;
+  border-bottom: 5px solid #000;
+  border-radius: 100px;
+  padding: 5px;
+}
+.hero_x {
+  background-color: #c12809;
+  background-image: url("../images/twitter.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 8px;
+  width: 50px;
+  height: 53px;
+  margin: 15px;
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.separator_1 {
+  background-color: #f4361c;
+  width: 100%;
+  height: 25px;
+  position: relative;
+}
+
+.block_h1_in {
+  background-color: #c12809;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 12px;
+  display: flex;
+}
+
+.block_h1_about {
+  background-color: #ffe7a1;
+  border-top: 10px solid #c12809;
+  border-bottom: 10px solid #c12809;
+  width: 100%;
+  height: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.about_details {
+  background-color: #930006;
+  border: 10px #c12809;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  margin-top: 0;
+  padding: 35px;
+  display: flex;
+}
+
+.how_in {
+  background-color: #930006;
+  border-bottom: 5px solid #000;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  display: flex;
+}
+
+.div-block-3 {
+  background-color: #930006;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.post_card {
+  margin: 15px;
+  width: 100%;
 }
