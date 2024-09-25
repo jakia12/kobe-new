@@ -1158,7 +1158,12 @@
     display: flex;
   }
 }
-
+.button_continue {
+  background-color: red;
+  border-bottom: 5px solid #000;
+  border-radius: 100px;
+  padding: 5px;
+}
 .about_circle {
   background-color: #fe0201;
   border-radius: 100%;
